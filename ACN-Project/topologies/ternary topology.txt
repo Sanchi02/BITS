@@ -1,0 +1,86 @@
+router
+
+root	NA	20	20
+l1-1	NA	20	20
+l1-2	NA	20	20
+l1-3    NA	20	20
+l2-1	NA	20	20
+l2-2	NA	20	20
+l2-3	NA	20	20
+l2-4	NA	20	20
+l2-5    NA	20	20
+l2-6    NA	20	20
+l2-7    NA	20	20
+l2-8    NA	20	20
+l2-9    NA	20	20
+l3-1	NA	20	20
+l3-2	NA	20	20
+l3-3	NA	20	20
+l3-4	NA	20	20
+l3-5	NA	20	20
+l3-6	NA	20	20
+l3-7	NA	20	20
+l3-8	NA	20	20
+l3-9    NA	20	20
+l3-10   NA	20	20
+l3-11   NA	20	20
+l3-12   NA	20	20
+l3-13   NA	20	20
+l3-14   NA	20	20
+l3-15   NA	20	20
+l3-16   NA	20	20
+l3-17   NA	20	20
+l3-18   NA	20	20
+l3-19   NA	20	20
+l3-20   NA	20	20
+l3-21   NA	20	20
+l3-22   NA	20	20
+l3-23   NA	20	20
+l3-24   NA	20	20
+l3-25   NA	20	20
+l3-26   NA	20	20
+l3-27   NA	20	20
+
+link
+
+root	l1-1	10Mbps	1	1ms	100
+root	l1-2	10Mbps	1	1ms	100
+root	l1-3	10Mbps	1	1ms	100
+l1-1	l2-1	10Mbps	1	1ms	100
+l1-1	l2-2	10Mbps	1	1ms	100
+l1-1	l2-3	10Mbps	1	1ms	100
+l1-2	l2-4	10Mbps	1	1ms	100
+l1-2	l2-5	10Mbps	1	1ms	100
+l1-2	l2-6	10Mbps	1	1ms	100
+l1-3	l2-7	10Mbps	1	1ms	100
+l1-3	l2-8	10Mbps	1	1ms	100
+l1-3	l2-9	10Mbps	1	1ms	100
+l2-1	l3-1	10Mbps	1	1ms	100
+l2-1	l3-2	10Mbps	1	1ms	100
+l2-1	l3-3	10Mbps	1	1ms	100
+l2-2	l3-4	10Mbps	1	1ms	100
+l2-2	l3-5	10Mbps	1	1ms	100
+l2-2	l3-6	10Mbps	1	1ms	100
+l2-3	l3-7	10Mbps	1	1ms	100
+l2-3	l3-8	10Mbps	1	1ms	100
+l2-3	l3-9	10Mbps	1	1ms	100
+l2-4	l3-10	10Mbps	1	1ms	100
+l2-4	l3-11	10Mbps	1	1ms	100
+l2-4	l3-12	10Mbps	1	1ms	100
+l2-5	l3-13	10Mbps	1	1ms	100
+l2-5	l3-14	10Mbps	1	1ms	100
+l2-5	l3-15	10Mbps	1	1ms	100
+l2-6	l3-16	10Mbps	1	1ms	100
+l2-6	l3-17	10Mbps	1	1ms	100
+l2-6	l3-18	10Mbps	1	1ms	100
+l2-7	l3-19	10Mbps	1	1ms	100
+l2-7	l3-20	10Mbps	1	1ms	100
+l2-7	l3-21	10Mbps	1	1ms	100
+l2-8	l3-22	10Mbps	1	1ms	100
+l2-8	l3-23	10Mbps	1	1ms	100
+l2-8	l3-24	10Mbps	1	1ms	100
+l2-9	l3-25	10Mbps	1	1ms	100
+l2-9	l3-26	10Mbps	1	1ms	100
+l2-9	l3-27	10Mbps	1	1ms	100
+
+

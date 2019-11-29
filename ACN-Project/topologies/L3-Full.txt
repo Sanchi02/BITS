@@ -1,0 +1,34 @@
+router
+
+root	NA	20	20
+l1-1	NA	20	20
+l1-2	NA	20	20
+l2-1	NA	20	20
+l2-2	NA	20	20
+l2-3	NA	20	20
+l2-4	NA	20	20
+l3-1	NA	20	20
+l3-2	NA	20	20
+l3-3	NA	20	20
+l3-4	NA	20	20
+l3-5	NA	20	20
+l3-6	NA	20	20
+l3-7	NA	20	20
+l3-8	NA	20	20
+
+link
+
+root	l1-1	10Mbps	1	1ms	100
+root	l1-2	10Mbps	1	1ms	100
+l1-1	l2-1	10Mbps	1	1ms	100
+l1-1	l2-2	10Mbps	1	1ms	100
+l1-2	l2-3	10Mbps	1	1ms	100
+l1-2	l2-4	10Mbps	1	1ms	100
+l2-1	l3-1	10Mbps	1	1ms	100
+l2-1	l3-2	10Mbps	1	1ms	100
+l2-2	l3-3	10Mbps	1	1ms	100
+l2-2	l3-4	10Mbps	1	1ms	100
+l2-3	l3-5	10Mbps	1	1ms	100
+l2-3	l3-6	10Mbps	1	1ms	100
+l2-4	l3-7	10Mbps	1	1ms	100
+l2-4	l3-8	10Mbps	1	1ms	100

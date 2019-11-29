@@ -1,0 +1,10 @@
+levels: 7
+
+root-l1-l2-l3-l4-l5-l6
+[500,450,435,351,344,344,550]
+
+PacketSize: 1024
+Max-depth: 7
+Number of nodes: 127
+Interest per sec: 300
+Skewness: 0.7
