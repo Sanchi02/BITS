@@ -1,0 +1,67 @@
+{
+    "all- purpose": {
+        "price": 150.16, 
+        "quan": 23, 
+        "time": 1606231515.263666
+    }, 
+    "aluminum foil": {
+        "price": 177.81, 
+        "quan": 18, 
+        "time": 1606231515.263442
+    }, 
+    "butter": {
+        "price": 133.53, 
+        "quan": 25, 
+        "time": 1606231515.263712
+    }, 
+    "cereals": {
+        "price": 203.67, 
+        "quan": 28, 
+        "time": 1606231515.263044
+    }, 
+    "dinner rolls": {
+        "price": 133.04, 
+        "quan": 23, 
+        "time": 1606231515.263062
+    }, 
+    "hand soap": {
+        "price": 189.99, 
+        "quan": 28, 
+        "time": 1606231515.263844
+    }, 
+    "ice cream": {
+        "price": 118.58, 
+        "quan": 18, 
+        "time": 1606231515.263127
+    }, 
+    "laundry detergent": {
+        "price": 155.89, 
+        "quan": 30, 
+        "time": 1606231515.263075
+    }, 
+    "lunch meat": {
+        "price": 79.94, 
+        "quan": 30, 
+        "time": 1606231515.26322
+    }, 
+    "mixes": {
+        "price": 129.37, 
+        "quan": 25, 
+        "time": 1606231515.263883
+    }, 
+    "sandwich bags": {
+        "price": 217.13, 
+        "quan": 30, 
+        "time": 1606231515.26369
+    }, 
+    "soap": {
+        "price": 85.59, 
+        "quan": 20, 
+        "time": 1606231515.263529
+    }, 
+    "vegetables": {
+        "price": 100.91, 
+        "quan": 30, 
+        "time": 1606231515.263348
+    }
+}

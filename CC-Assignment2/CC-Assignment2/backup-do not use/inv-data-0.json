@@ -1,0 +1,62 @@
+{
+    "cheeses": {
+        "price": 160.6, 
+        "quan": 29, 
+        "time": 1606231515.263289
+    }, 
+    "dishwashing liquid/detergent": {
+        "price": 181.14, 
+        "quan": 25, 
+        "time": 1606231515.264002
+    }, 
+    "flour": {
+        "price": 52.5, 
+        "quan": 28, 
+        "time": 1606231515.26357
+    }, 
+    "individual meals": {
+        "price": 216.54, 
+        "quan": 19, 
+        "time": 1606231515.263955
+    }, 
+    "milk": {
+        "price": 59.06, 
+        "quan": 22, 
+        "time": 1606231515.263086
+    }, 
+    "pork": {
+        "price": 159.29, 
+        "quan": 24, 
+        "time": 1606231515.262984
+    }, 
+    "shampoo": {
+        "price": 68.17, 
+        "quan": 21, 
+        "time": 1606231515.263822
+    }, 
+    "soda": {
+        "price": 67.41, 
+        "quan": 15, 
+        "time": 1606231515.263927
+    }, 
+    "toilet paper": {
+        "price": 138.03, 
+        "quan": 28, 
+        "time": 1606231515.263642
+    }, 
+    "tortillas": {
+        "price": 192.38, 
+        "quan": 17, 
+        "time": 1606231515.263781
+    }, 
+    "waffles": {
+        "price": 173.7, 
+        "quan": 15, 
+        "time": 1606231515.263374
+    }, 
+    "yogurt": {
+        "price": 98.93, 
+        "quan": 27, 
+        "time": 1606231515.263487
+    }
+}

@@ -1,0 +1,154 @@
+version: "3.8"
+services:
+    invdata1:
+        build:
+            context: .
+            dockerfile: container-invdata-0.dockerfile
+        container_name: invdata1
+        restart: unless-stopped
+        tty: true
+        ports:
+            - 3001:3000
+        networks:
+            net1:
+    invdata2:
+        build:
+            context: .
+            dockerfile: container-invdata-1.dockerfile
+        container_name: invdata2
+        restart: unless-stopped
+        tty: true
+        ports:
+            - 3002:3000
+        networks:
+            net1:
+    cartdata1:
+        build:
+            context: .
+            dockerfile: container-cartdata.dockerfile
+        container_name: cartdata1
+        restart: unless-stopped
+        tty: true
+        ports:
+            - 4001:4000
+        networks:
+            net1:
+    cartdata2:
+        build:
+            context: .
+            dockerfile: container-cartdata.dockerfile
+        container_name: cartdata2
+        restart: unless-stopped
+        tty: true
+        ports:
+            - 4002:4000
+        networks:
+            net1:
+            
+    zoo1:
+        image: zookeeper
+        restart: unless-stopped
+        hostname: zoo1
+        ports:
+            - 2181:2181
+        networks:
+            net1:
+        environment:
+            ZOO_MY_ID: 1
+            ZOO_SERVERS: server.1=0.0.0.0:2888:3888;2181
+            
+    restsrv1:
+        build:
+            context: .
+            dockerfile: container-rest_server.dockerfile
+        container_name: restsrv1
+        restart: unless-stopped
+        tty: true
+        ports:
+            - 5001:5000
+        networks:
+            net1:
+    restsrv2:
+        build:
+            context: .
+            dockerfile: container-rest_server.dockerfile
+        container_name: restsrv2
+        restart: unless-stopped
+        tty: true
+        ports:
+            - 5002:5000
+        networks:
+            net1:
+    gateway1:
+        build:
+            context: .
+            dockerfile: container-gateway.dockerfile
+        container_name: gateway1
+        restart: unless-stopped
+        tty: true
+        ports:
+            - 6001:6000
+        networks:
+            net1:
+    gateway2:
+        build:
+            context: .
+            dockerfile: container-gateway.dockerfile
+        container_name: gateway2
+        restart: unless-stopped
+        tty: true
+        ports:
+            - 6002:6000
+        networks:
+            net1:
+    userterm1:
+        build:
+            context: .
+            dockerfile: container-rest_client-0.dockerfile
+        container_name: client1
+        restart: unless-stopped
+        tty: true
+        networks:
+            net1:
+    userterm2:
+        build:
+            context: .
+            dockerfile: container-rest_client-1.dockerfile
+        container_name: client2
+        restart: unless-stopped
+        tty: true
+        networks:
+            net1:
+            
+    userterm3:
+        build:
+            context: .
+            dockerfile: container-rest_client-2.dockerfile
+        container_name: client3
+        restart: unless-stopped
+        tty: true
+        networks:
+            net1:
+            
+    userterm4:
+        build:
+            context: .
+            dockerfile: container-rest_client-3.dockerfile
+        container_name: client4
+        restart: unless-stopped
+        tty: true
+        networks:
+            net1:
+    userterm5:
+        build:
+            context: .
+            dockerfile: container-rest_client-4.dockerfile
+        container_name: client5
+        restart: unless-stopped
+        tty: true
+        networks:
+            net1:
+     
+networks:
+    net1:
+        driver: bridge
