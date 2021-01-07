@@ -1,0 +1,11 @@
+{
+    "select": ["group"],
+    "func": "SUM",
+    "funcCol": "salesrank",
+    "from": "products",
+    "whereCol": "categories",
+    "whereOp": "=",
+    "whereCond": "History",
+    "havOp":">",
+    "havCond":"0"
+}

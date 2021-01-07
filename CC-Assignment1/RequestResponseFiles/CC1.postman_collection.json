@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "7d29630b-4404-45d1-875a-4cea4c6150d3",
+		"name": "CC1",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Post Query",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"select\": [\"group\"],\n    \"func\": \"MIN\",\n    \"funcCol\": \"salesrank\",\n    \"from\": \"products\",\n    \"whereCol\": \"categories\",\n    \"whereOp\": \"=\",\n    \"whereCond\": \"History\",\n    \"havOp\":\">\",\n    \"havCond\":\"4500\"\n}\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/query",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"query"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}

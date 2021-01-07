@@ -1,0 +1,11 @@
+{
+    "select": ["group"],
+    "func": "MIN",
+    "funcCol": "salesrank",
+    "from": "products",
+    "whereCol": "categories",
+    "whereOp": "=",
+    "whereCond": "History",
+    "havOp":">",
+    "havCond":"4500"
+}

@@ -1,0 +1,11 @@
+{
+    "select": ["group"],
+    "func": "COUNT",
+    "funcCol": "ProductID",
+    "from": "products",
+    "whereCol": "categories",
+    "whereOp": "=",
+    "whereCond": "Religion & Spirituality",
+    "havOp":">",
+    "havCond":"0"
+}
